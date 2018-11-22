@@ -1,4 +1,4 @@
-package org.shoper.commons.encryption.config;
+package org.shield.project.encryption.config;
 
 import com.ulisesbocchio.jasyptspringboot.EncryptablePropertyResolver;
 import lombok.extern.log4j.Log4j;

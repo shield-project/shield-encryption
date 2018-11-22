@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-org.shoper.commons.encryption.config.EncryptionPropertyConfig
+org.shield.project.encryption.config.EncryptionPropertyConfig

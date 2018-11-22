@@ -1,4 +1,4 @@
-package org.shoper.commons.encryption.config;
+package org.shield.project.encryption.config;
 
 import lombok.extern.log4j.Log4j;
 import org.jasypt.util.password.StrongPasswordEncryptor;

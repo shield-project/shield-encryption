@@ -1,8 +1,8 @@
-package org.shoper.commons.encryption.config;
+package org.shield.project.encryption.config;
 
 import com.ulisesbocchio.jasyptspringboot.EncryptablePropertyResolver;
 import lombok.extern.log4j.Log4j;
-import org.shoper.commons.encryption.config.property.JasyptEncryptorProperty;
+import org.shield.project.encryption.config.property.JasyptEncryptorProperty;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

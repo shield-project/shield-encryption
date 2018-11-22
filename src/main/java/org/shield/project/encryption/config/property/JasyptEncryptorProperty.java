@@ -1,4 +1,4 @@
-package org.shoper.commons.encryption.config.property;
+package org.shield.project.encryption.config.property;
 
 import lombok.Getter;
 import lombok.Setter;

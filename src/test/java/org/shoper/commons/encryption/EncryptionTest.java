@@ -1,6 +1,6 @@
 package org.shoper.commons.encryption;
 
-import org.shoper.commons.encryption.config.EncryptUtil;
+import org.shield.project.encryption.config.EncryptUtil;
 import org.junit.Test;
 
 /**
