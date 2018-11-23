@@ -3,6 +3,7 @@ package org.shield.project.encryption.config;
 import lombok.extern.log4j.Log4j;
 import org.jasypt.util.password.StrongPasswordEncryptor;
 import org.jasypt.util.text.StrongTextEncryptor;
+import org.shield.project.encryption.config.maven.EncryptEnum;
 
 /**
  * @author ShawnShoper
@@ -55,4 +56,17 @@ public class EncryptUtil {
         }
     }
 
+    public static String encrytion(String password, String value, EncryptEnum encryptEnum) {
+        String substring = value.substring(encryptEnum.getPrefix().length(), value.length() - encryptEnum.getSuffix().length());
+        String encrytValue = null;
+        switch (encryptEnum) {
+            case TEXT:
+                encrytValue = new TextEncryptor(password).encrypt(substring);
+                break;
+            default:
+                //will not enter this block
+                break;
+        }
+        return encrytValue;
+    }
 }
